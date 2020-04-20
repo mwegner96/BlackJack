@@ -15,7 +15,7 @@ public class Spielablauf {
 	boolean verloren, BankVerloren, EingabeGuthabenOk, EingabeAnzahlOk, EingabeEinsatzOk;
 	int Zaehler = 0;
 
-	public void BlackJack() {
+	public void starteBlackJack() {
 
 		System.out.println("----------------------------------");
 		System.out.println("Herzlich Willkommen bei Black Jack");
@@ -67,7 +67,7 @@ public class Spielablauf {
 			}
 
 		} while (Guthaben < 1 || Guthaben > 100000);
-		System.out.println(" ");
+		System.out.println();
 		System.out.println("Jeder Spieler hat " + Guthaben + " Chips");
 
 		System.out.println();
